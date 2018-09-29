@@ -1,0 +1,179 @@
+
+.nav-link{
+  display:inline;
+  margin:2px;
+  border:1px solid white;
+  border-radius:5px;
+}
+
+.nav-link:hover{
+  text-decoration:underline;
+}
+
+.email:link{
+  text-decoration:none;
+  color:white;
+}
+
+.email:active {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.active{
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+nav{
+  background-color:#5d70d2 !important;
+}
+
+.navbar{
+  background-color:#5d70d2 !important;
+}
+
+#logoNav{
+  height:60px;
+  width:65px;
+}
+
+nav h2{
+  color: white !important;
+}
+
+li a{
+  color: white !important;
+}
+
+.list-icon{
+  width:25px;
+  height:25px;
+}
+.list-icon-gt{
+  width:50px;
+  height:50px;
+}
+
+.carousel{
+  width:80%;
+  height:300px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.img-carousel{
+  width: 80%;
+  height:300px;
+  object-fit:contain;
+}
+
+.carousel-txt{
+  color:black;
+}
+
+
+
+.footer-bottom{
+  background-color:#5d70d2;
+}
+
+.footer-text{
+  color: white;
+}
+
+.social-logo{
+  width:32px;
+  height:32px;
+}
+
+.social-logo:hover{
+  border:5px solid white;
+  border-radius:50%;
+}
+
+.approach{
+
+}
+
+.email{
+  color: white;
+}
+
+.email:hover{
+  text-decoration:underline;
+  background-color:black;
+}
+.email:link{
+  text-decoration:none;
+  color:white;
+}
+
+.email:active {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.mandel{
+  background-image:url("../assets/mandel.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:300px;
+}
+.alg{
+  background-image:url("../assets/alg.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:300px;
+}
+
+.calc{
+  background-image:url("../assets/calc.png");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:300px;
+}
+
+.english-links{
+  color:black;
+  margin-left:8px;
+  text-decoration:underline;
+  border-left:3px solid black;
+  border-radius: 5px;
+}
+
+.english-links:hover{
+  text-decoration:none;
+  color:black;
+  border:3px solid black;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .nav-item {
+    margin-top:7px;
+    margin-bottom:7px;
+    display:inline-block;
+    border-radius:0px;
+    border:0px;
+    font-size:1.2em;
+  }
+  .nav-link{
+    padding:10px;
+    display:inline-block;
+    border-radius:0px;
+    border:0px;
+  }
+}
+
+
+
+/*bootsnip Cards*/
+
